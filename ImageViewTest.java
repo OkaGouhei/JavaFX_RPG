@@ -91,7 +91,7 @@ public class ImageViewTest extends Application implements Initializable {
     	list.add(teamB[i].attack(object_enemy));
     }
     if(object_enemy.hp<=0){
-    	list.add(object_enemy.name + "のライフポイントは0になりました");
+    	list.add(object_enemy.name + "のライフポイントは0になりました コメント");
     }else{
     	list.add(object_enemy.tell_hp());
     }
