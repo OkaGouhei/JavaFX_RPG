@@ -11,7 +11,7 @@ public class Character{
 	public String introduce(){
 		return "私の名前は" + name + "だ";
 	}
-	public String tell_hp(){
+	public String tellHp(){
 		return name+"のライフポイントは" + hp + "だ";
 	}
 	public String attack(Character enemy){

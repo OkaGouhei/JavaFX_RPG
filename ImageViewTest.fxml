@@ -5,15 +5,15 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ImageViewTest">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="imageViewTest">
   <children>
     <ImageView fx:id="background" fitHeight="600.0" fitWidth="800.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true" />
     <ImageView fx:id="monster1" fitHeight="200.0" fitWidth="200.0" layoutX="50.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
-    <Button id="monster1" fx:id="monster_button_1" layoutX="102.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClick1" text="" />
-    <Label id="LabelOutput" fx:id="label_Output" layoutX="245.0" layoutY="400.0" minHeight="19.94140625" prefHeight="19.94140625" text="" />
+    <Button id="monster1" fx:id="monsterButton1" layoutX="102.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClick1" text="" />
+    <Label id="LabelOutput" fx:id="labelOutput" layoutX="245.0" layoutY="400.0" minHeight="19.94140625" prefHeight="19.94140625" text="" />
     <ImageView fx:id="monster2" fitHeight="200.0" fitWidth="200.0" layoutX="300.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
-    <Button fx:id="monster_button_2" layoutX="363.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClick2" />
+    <Button fx:id="monsterButton2" layoutX="363.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClick2" />
     <ImageView fx:id="monster3" fitHeight="200.0" fitWidth="200.0" layoutX="575.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
-    <Button fx:id="monster_button_3" layoutX="633.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClick3" />
+    <Button fx:id="monsterButton3" layoutX="633.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClick3" />
   </children>
 </Pane>
